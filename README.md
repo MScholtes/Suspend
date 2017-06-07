@@ -3,7 +3,7 @@ C++ command line tool to suspend / resume processes (Windows)
 
 <b>How To Compile</b>
 
-- Start Visual Studio command prompt<br />
+- Start Visual Studio command prompt (x64 or x86 as desired)<br />
 - Change to directory with Suspend.cpp<br />
 - compile with cl Suspend.cpp<br />
 
@@ -17,8 +17,9 @@ Instead of a complete program name a starting part of the name can be supplied. 
 Parameter:<br />
 /INSTANCE:n - process n. found process with name part (default: 1).<br />
 /INSTANCE:ALL - process all found processes with name part. The parameter /INSTANCE: can be shortened by /I:.<br />
-/SUSPEND oder /S - suspend process(es) (default action).<br />
-/RESUME oder /R - resume process(es).<br />
+/QUERY or /Q - query suspend state of process(es).<br />
+/SUSPEND or /S - suspend process(es) (default action).<br />
+/RESUME or /R - resume process(es).<br />
 
 <b>Examples</b>
 
